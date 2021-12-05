@@ -47,3 +47,10 @@ Then query it from PrestoDB. You can get [presto.jar](https://prestosql.io/docs/
 * Ivan Ermilov [@earthquakesan](https://github.com/earthquakesan) (maintainer)
 * Yiannis Mouchakis [@gmouchakis](https://github.com/gmouchakis)
 * Ke Zhu [@shawnzhu](https://github.com/shawnzhu)
+
+## Additions
+Second metastore for development environment. How to use:
+
+- Start docker-compose (as explained above)
+- Log into hive server docker container (as explained above)
+- Run the commands in `test_dev_prod_commands.sh` to see dev/prod hive instances working
